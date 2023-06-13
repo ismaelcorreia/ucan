@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@font-face {
+  font-family: 'BalooChettan';
+  src: url(../../assets/fonts/BalooChettan-Regular.ttf);
+}
+
+h1, h2, h3{
+    font-weight: 900;
+    font-size: 1;
+}
+
+*{
+  font-family: 'Poppins', sans-serif;
+} 
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 200,
+  'GRAD' -25,
+  'opsz' 40;
+  
+} 
+
+.link, h1, h2, h3, h4, h5, h6{
+  font-family: 'BalooChettan';
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+p{
+  font-size: 14px;
+}

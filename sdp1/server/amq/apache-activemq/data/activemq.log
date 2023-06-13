@@ -1,0 +1,30 @@
+2023-06-13 09:00:27,400 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/home/ismaeldev/projects/ucan/sdp1/server/amq/apache-activemq/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2023-06-13 09:00:27,406 | INFO  | Starting Persistence Adapter: KahaDBPersistenceAdapter[/home/ismaeldev/projects/ucan/sdp1/server/amq/apache-activemq/data/kahadb] | org.apache.activemq.broker.BrokerService | main
+2023-06-13 09:00:27,421 | INFO  | Starting KahaDBStore | org.apache.activemq.store.kahadb.KahaDBStore | main
+2023-06-13 09:00:27,422 | INFO  | Opening MessageDatabase | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-06-13 09:00:27,566 | INFO  | Starting Temp Data Store | org.apache.activemq.broker.BrokerService | main
+2023-06-13 09:00:27,566 | INFO  | PListStore:[/home/ismaeldev/projects/ucan/sdp1/server/amq/apache-activemq/data/localhost/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2023-06-13 09:00:27,566 | INFO  | Starting Job Scheduler Store | org.apache.activemq.broker.BrokerService | main
+2023-06-13 09:00:27,566 | INFO  | Persistence Adapter successfully started | org.apache.activemq.broker.BrokerService | main
+2023-06-13 09:00:27,735 | INFO  | Apache ActiveMQ 5.18.1 (localhost, ID:ismaeldev-44435-1686643227583-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2023-06-13 09:00:27,767 | INFO  | Listening for connections at: tcp://ismaeldev:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-06-13 09:00:27,768 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2023-06-13 09:00:27,771 | INFO  | Listening for connections at: amqp://ismaeldev:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-06-13 09:00:27,771 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2023-06-13 09:00:27,775 | INFO  | Listening for connections at: stomp://ismaeldev:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-06-13 09:00:27,775 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2023-06-13 09:00:27,794 | INFO  | Listening for connections at: mqtt://ismaeldev:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-06-13 09:00:27,794 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2023-06-13 09:00:27,798 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2023-06-13 09:00:27,823 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2023-06-13 09:00:27,864 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@146dcfe6{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2023-06-13 09:00:27,900 | INFO  | Listening for connections at ws://ismaeldev:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2023-06-13 09:00:27,900 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2023-06-13 09:00:27,901 | INFO  | Apache ActiveMQ 5.18.1 (localhost, ID:ismaeldev-44435-1686643227583-0:1) started | org.apache.activemq.broker.BrokerService | main
+2023-06-13 09:00:27,901 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2023-06-13 09:00:27,907 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: /home/ismaeldev/projects/ucan/sdp1/server/amq/apache-activemq/data/kahadb only has 38109 mb of usable space. - resetting to maximum available disk space: 38109 mb | org.apache.activemq.broker.BrokerService | main
+2023-06-13 09:00:27,907 | WARN  | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: /home/ismaeldev/projects/ucan/sdp1/server/amq/apache-activemq/data only has 38109 mb of usable space. - resetting to maximum available disk space: 38109 mb | org.apache.activemq.broker.BrokerService | main
+2023-06-13 09:00:28,320 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2023-06-13 09:00:28,320 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2023-06-13 12:13:34,097 | WARN  | Transport Connection to: tcp://10.10.6.210:56463 failed: Channel was inactive for too (>30000) long: tcp://10.10.6.210:56463 | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ InactivityMonitor Worker 0
+2023-06-13 12:32:05,434 | WARN  | Transport Connection to: tcp://10.10.6.210:56525 failed: Channel was inactive for too (>30000) long: tcp://10.10.6.210:56525 | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ InactivityMonitor Worker 0
